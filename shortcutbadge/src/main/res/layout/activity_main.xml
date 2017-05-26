@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.cxp.shortcut_badge.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_tv"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/main_til"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入角标数(友情提示输入0就是没有角标)">
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/add_badge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Set Badge Num"/>
+
+    <Button
+        android:id="@+id/remobe_badge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Remove Badge Num"/>
+
+</LinearLayout>

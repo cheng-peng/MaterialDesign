@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_homg"
+            android:checked="true"
+            android:icon="@mipmap/cxp_white_30"
+            android:title="主页" />
+
+        <item
+            android:id="@+id/drawer_tx"
+            android:checked="true"
+            android:icon="@mipmap/cxp_white_02"
+            android:title="提醒" />
+
+        <item
+            android:id="@+id/drawer_xh"
+            android:checked="true"
+            android:icon="@mipmap/cxp_white_03"
+            android:title="喜欢" />
+
+        <item
+            android:id="@+id/drawer_sc"
+            android:checked="true"
+            android:icon="@mipmap/cxp_white_04"
+            android:title="收藏" />
+
+        <item
+            android:id="@+id/drawer_wz"
+            android:checked="true"
+            android:icon="@mipmap/cxp_white_05"
+            android:title="位置" />
+
+    </group>
+
+    <item
+        android:id="@+id/section"
+        android:icon="@mipmap/cxp_white_02"
+        android:title="Group">
+        <menu>
+                <item
+                    android:checkable="true"
+                    android:id="@+id/drawer_downloaded"
+                    android:icon="@mipmap/cxp_white_03"
+                    android:title="Computer"/>
+                <item
+                    android:checkable="true"
+                    android:id="@+id/drawer_more"
+                    android:icon="@mipmap/cxp_white_04"
+                    android:title="Border"/>
+        </menu>
+    </item>
+</menu>

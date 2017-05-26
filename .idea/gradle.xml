@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="D:\android_studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/appbarlayout" />
+            <option value="$PROJECT_DIR$/bottomsheet" />
+            <option value="$PROJECT_DIR$/cardview" />
+            <option value="$PROJECT_DIR$/collapsingtoolbarlayout" />
+            <option value="$PROJECT_DIR$/coordinator_layout" />
+            <option value="$PROJECT_DIR$/demo" />
+            <option value="$PROJECT_DIR$/dialog" />
+            <option value="$PROJECT_DIR$/floatingactionbutton" />
+            <option value="$PROJECT_DIR$/navigationview" />
+            <option value="$PROJECT_DIR$/recyclerview" />
+            <option value="$PROJECT_DIR$/rippledrawable" />
+            <option value="$PROJECT_DIR$/shortcutbadge" />
+            <option value="$PROJECT_DIR$/snackbar" />
+            <option value="$PROJECT_DIR$/tablayout" />
+            <option value="$PROJECT_DIR$/textinputlayout" />
+            <option value="$PROJECT_DIR$/toolbar" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

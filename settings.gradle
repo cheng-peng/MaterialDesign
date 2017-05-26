@@ -1,0 +1,1 @@
+include ':rippledrawable', ':toolbar', ':dialog', ':cardview', ':floatingactionbutton', ':textinputlayout', ':snackbar', ':tablayout', ':shortcutbadge', ':navigationview', ':coordinator_layout', ':bottomsheet', ':appbarlayout', ':collapsingtoolbarlayout', ':demo', ':recyclerview'
